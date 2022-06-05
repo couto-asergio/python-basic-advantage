@@ -1,0 +1,546 @@
+ /*
+	---------------------------------------------------
+	
+	        1Page - Styles for Mobile Devices
+
+	---------------------------------------------------
+*/
+
+/* Tablet Portrait size to standard 960 (devices and browsers) */
+@media only screen and (min-width: 1004px) and (max-width: 1340px) {
+/*-----------------------------------------------------------------------------
+----------------------------- 1 - Layout --------------------------------------
+-----------------------------------------------------------------------------*/
+header.main                { width: 100%;}
+header div.wrap            { width: 980px;}
+.wrap                      { width: 980px;}
+
+
+/*-----------------------------------------------------------------------------
+----------------------------- 2 - Header --------------------------------------
+-----------------------------------------------------------------------------*/
+/* -- Search Header (menu) -- */
+#searchform1               { display: none;}
+
+
+
+/*-----------------------------------------------------------------------------
+----------------------------- 4 - Home Content --------------------------------
+-----------------------------------------------------------------------------*/
+/* -- Home Content -- */ 
+.main-content              { width: 980px; margin-left: 75px !important;} 
+
+
+
+/*-----------------------------------------------------------------------------
+----------------------------- 5 - Entry Content -------------------------------
+-----------------------------------------------------------------------------*/ 
+.content                   { width: 640px; }
+.article-author-img        { width: 30px; height: 30px; margin: -37px 0 0 -40px;}        
+.article-author-img img    { width: 30px; height: 30px;} 
+/* -- Single post types -- */
+img.attachment-thumbnail-single-image { width: 640px; } 
+.single-gallery img        { width: 160px; height: 160px;}
+iframe.single_iframe       { width: 640px; height: 400px;}
+
+/* -- Bottom Banner -- */
+.article_list li.bottom-banner  { width: 300px !important; height: 250px; float: none; margin: 0 auto 25px auto; padding-top: 35px !important; }
+
+/* -- Entry bottom -- */
+.entry-bottom ul.article_list   { width: 100%;}
+.entry-bottom                   { width: 540px; margin: 70px auto 30px auto;}
+.entry-bottom .article_list li  { width: 90%; padding: 25px 25px 25px 25px; }
+
+
+
+/*-----------------------------------------------------------------------------
+----------------------------- 9 - Custom Pages --------------------------------
+-----------------------------------------------------------------------------*/
+/* -- Tag & Category Index -- */
+#mcTagMap .holdleft, #sc_mcTagMap .holdleft { width: 160px !important; }
+
+/* --- 2nd Home example ( Template - Home ) -- */
+.default-post                 { width: 540px;}
+.default-post img             { width: 540px; height: 330px; float: left; margin-right: 0px; margin-bottom: 30px;}
+.entry-dp                     { width: 540px; float: left; /* 580 */ }
+
+
+/*-----------------------------------------------------------------------------
+----------------------------- 10 - Footer -------------------------------------
+-----------------------------------------------------------------------------*/
+footer .wrap                  { width: 980px; }
+ 
+}
+
+
+
+
+
+
+
+/* Tablet Portrait size to standard 960 (devices and browsers) */
+@media only screen and (min-width: 760px) and (max-width: 1000px) {
+/*-----------------------------------------------------------------------------
+----------------------------- 1 - Layout --------------------------------------
+-----------------------------------------------------------------------------*/
+header.main                { width: 100%;}
+header div.wrap            { width: 750px;}
+.wrap                      { width: 750px;}
+
+
+/*-----------------------------------------------------------------------------
+----------------------------- 2 - Header --------------------------------------
+-----------------------------------------------------------------------------*/
+/* -- Search Header (menu) -- */
+#searchform1               { display: block;}
+
+/* -- Top Header Menu --
+##################### */
+.jquerycssmenu             { display: none;}
+
+/* -- Right Menu -- */
+ul.right-menu              { display: none;}
+
+
+
+/*-----------------------------------------------------------------------------
+----------------------------- 3 - Sub-Header ----------------------------------
+-----------------------------------------------------------------------------*/
+/* -- Sub Header -- */
+.front-overlay-wrap h1     { font-size: 30px; padding: 70px 10px 0 10px;}
+
+/* -- Banners -- */
+.home-banner-728           { display: block;}
+.home-banner-970           { display: none;}
+
+
+/*-----------------------------------------------------------------------------
+----------------------------- 4 - Home Content --------------------------------
+-----------------------------------------------------------------------------*/
+/* -- Home Content -- */ 
+.main-content              { width: 750px; margin-left: 90px !important;} 
+
+
+
+/*-----------------------------------------------------------------------------
+----------------------------- 5 - Entry Content -------------------------------
+-----------------------------------------------------------------------------*/ 
+.content                   { width: 640px; margin-left: 55px; }
+.article-author-img        { width: 30px; height: 30px; margin: -37px 0 0 -40px;}        
+.article-author-img img    { width: 30px; height: 30px;} 
+/* -- Single post types -- */
+img.attachment-thumbnail-single-image { width: 640px; } 
+.single-gallery img        { width: 160px; height: 160px;}
+iframe.single_iframe       { width: 640px; height: 400px;}
+
+/* -- Bottom Banner -- */
+.article_list li.bottom-banner  { width: 300px !important; height: 250px; float: none; margin: 0 auto 25px auto; padding-top: 35px !important; }
+
+/* -- Entry bottom -- */
+.entry-bottom ul.article_list   { width: 100%;}
+.entry-bottom                   { width: 540px; margin: 70px auto 30px auto;}
+.entry-bottom .article_list li  { width: 90%; padding: 25px 25px 25px 25px; }
+
+
+
+
+/*-----------------------------------------------------------------------------
+----------------------------- 6 - Sidebar & Widgets ---------------------------
+-----------------------------------------------------------------------------*/
+
+/* -- Sidebar -- */
+.sidebar                   { width: 640px; height: auto; float: inherit;  margin: 30px auto !important; }
+.sidebar .widget           { margin-bottom: 40px; }
+.sidebar .widget h3.title  { text-align: center; font-size: 14px; letter-spacing:3px; text-transform: uppercase; margin-bottom: 20px; font-weight: 600; padding-bottom: 10px; }
+.sidebar .widget h3.title span { padding: 5px 10px;}
+
+/* -- Vieos -- */
+.sidebar iframe.wi-video   { width: 640px; height: 300px;}
+
+/* -- Article widget -- */
+ul.article_list          { width: 100%; height: auto; margin:-23px auto 30px auto; background: #FFF url(images/bg-header.png) repeat-x; -moz-box-shadow: 0 0px 5px #888; -webkit-box-shadow: 0 0px 5px #888; box-shadow: 0 0px 5px #888;}
+.article_list li         { width: 93%; height: auto; padding: 25px 15px 25px 25px; border-bottom: 1px solid #f0eee9; }
+.article_list li img     { width: 80px; height: 80px; float: left; margin-right: 15px; border-radius: 3px; }
+.article_list li h3      { font-size: 13px; line-height: 20px; padding-bottom: 5px; }
+.article_list li div.an-display-time   { display: block; font-size: 12px; color: #94979c; margin-top: -5px; }
+
+
+/*-----------------------------------------------------------------------------
+----------------------------- 9 - Custom Pages --------------------------------
+-----------------------------------------------------------------------------*/
+/* -- Tag & Category Index -- */
+#mcTagMap .holdleft, #sc_mcTagMap .holdleft { width: 160px !important; }
+
+/* --- 2nd Home example ( Template - Home ) -- */
+.default-post                 { width: 540px;}
+.default-post img             { width: 540px; height: 330px; float: left; margin-right: 0px; margin-bottom: 30px;}
+.entry-dp                     { width: 540px; float: left; /* 580 */ }
+
+
+/*-----------------------------------------------------------------------------
+----------------------------- 10 - Footer -------------------------------------
+-----------------------------------------------------------------------------*/
+footer .wrap                  { width: 750px; }
+
+/* -- Footer Social Icons -- */
+ul.footer-social              { float: left; }
+
+/* -- Columns -- */
+.one_third, .one_third_last       { float:left; width:100%; margin-bottom:10px; margin-right:0; }
+.one_third_last                   { margin-right:0;}
+
+.one_fourth, .one_fourth_last     { float:left; width:100%; margin-bottom:10px; margin-right:0; }
+.one_fourth_last                  { margin-right:0;}
+
+}
+
+
+
+
+
+
+
+
+
+/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+@media only screen and (min-width: 480px) and (max-width: 760px) {
+/*-----------------------------------------------------------------------------
+----------------------------- 1 - Layout --------------------------------------
+-----------------------------------------------------------------------------*/
+header.main                { width: 100%;}
+header div.wrap            { width: 450px;}
+.wrap                      { width: 450px;}
+
+
+/*-----------------------------------------------------------------------------
+----------------------------- 2 - Header --------------------------------------
+-----------------------------------------------------------------------------*/
+/* -- Search Header (menu) -- */
+#searchform1               { display: none;}
+.sb-slidebar #searchform1  { display: block;}
+
+/* -- Top Header Menu --
+##################### */
+.jquerycssmenu             { display: none;}
+
+/* -- Right Menu -- */
+ul.right-menu              { display: none;}
+
+
+/*-----------------------------------------------------------------------------
+----------------------------- 3 - Sub-Header ----------------------------------
+-----------------------------------------------------------------------------*/
+/* -- Sub Header -- */
+.front-overlay-content     { width: 100%; height: 300px;}
+.front-overlay-wrap        { width: 100%; height: 300px; }
+.front-overlay-wrap h1     { font-size: 17px; line-height: 28px; padding: 60px 10px 0 10px;}
+
+/* -- Sub Header Search -- */
+#searchform2               { width: 400px; }
+#searchform2 #s            { width: 260px;  }
+#searchform2 .buttonicon   { width: 100px; }
+
+/* -- Live Search -- */
+ul.dwls_search_results     { width: 300px !important; }
+
+/* -- Sub Header Search ( Popular Words ) -- */
+.popular-words             { width: 400px; }
+
+/* -- Sub Header Top social icons -- */
+ul.top-social              { display: none;}
+
+/* -- Banners -- */
+.home-banner-468           { display: block;}
+.home-banner-728           { display: none;}
+.home-banner-970           { display: none;}
+
+/*-----------------------------------------------------------------------------
+----------------------------- 4 - Home Content --------------------------------
+-----------------------------------------------------------------------------*/
+/* -- Home Content -- */ 
+.main-content              { width: 450px; margin-left: 80px !important;} 
+
+
+
+/*-----------------------------------------------------------------------------
+----------------------------- 5 - Entry Content -------------------------------
+-----------------------------------------------------------------------------*/ 
+.content                   { width: 450px; margin-left: auto; margin-right: auto;}
+.article-author-img        { width: 30px; height: 30px; margin: -37px 0 0 -40px;}        
+.article-author-img img    { width: 30px; height: 30px;} 
+h1.article-title           { font-size: 36px; line-height: 46px; }
+
+
+/* -- Single post types -- */
+img.attachment-thumbnail-single-image { width: 450px; } 
+.single-gallery img        { width: 150px; height: 150px;}
+iframe.single_iframe       { width: 450px; height: 300px;}
+
+/* -- Entry Banner -- */
+.entry-banner              { width: 300px; height: 250px; float: inherit; margin: 20px auto; }
+.entry img, img.aligncenter, .aligncenter img  { width: 100%; height: auto !important; }
+
+/* -- Bottom Banner -- */
+.article_list li.bottom-banner  { width: 300px !important; height: 250px; float: none; margin: 0 auto 25px auto; padding-top: 35px !important; }
+
+/* -- Entry bottom -- */
+.entry-bottom ul.article_list   { width: 100%;}
+.entry-bottom                   { width: 450px; margin: 70px auto 30px auto;}
+.entry-bottom .article_list li  { width: 87%; padding: 25px 25px 25px 25px; }
+
+/* -- Single Share -- */
+#single-share  { width:100%;  height: auto; float: none; position: fixed; bottom: 0; top: inherit; }
+#single-share a { width:20%; float: left; display: block; border-radius: 0px !important;}
+#single-share a:hover { opacity: 0.95;}
+
+
+/*-----------------------------------------------------------------------------
+----------------------------- 6 - Sidebar & Widgets ---------------------------
+-----------------------------------------------------------------------------*/
+
+/* -- Sidebar -- */
+.sidebar                   { width: 450px; height: auto; float: left;  margin: 30px auto !important; }
+.sidebar .widget           { margin-bottom: 40px; }
+.sidebar .widget h3.title  { text-align: center; font-size: 14px; letter-spacing:3px; text-transform: uppercase; margin-bottom: 20px; font-weight: 600; padding-bottom: 10px; }
+.sidebar .widget h3.title span { padding: 5px 10px;}
+
+/* -- Vieos -- */
+.sidebar iframe.wi-video   { width: 450px; height: 300px;}
+
+/* -- Article widget -- */
+ul.article_list          { width: 100%; height: auto; margin:-23px auto 30px auto; background: #FFF url(images/bg-header.png) repeat-x; -moz-box-shadow: 0 0px 5px #888; -webkit-box-shadow: 0 0px 5px #888; box-shadow: 0 0px 5px #888;}
+.article_list li         { width: 90%; height: auto; padding: 25px 15px 25px 25px; border-bottom: 1px solid #f0eee9; }
+.article_list li img     { width: 80px; height: 80px; float: left; margin-right: 15px; border-radius: 3px; }
+.article_list li h3      { font-size: 13px; line-height: 20px; padding-bottom: 5px; }
+.article_list li div.an-display-time   { display: block; font-size: 12px; color: #94979c; margin-top: -5px; }
+
+
+
+/*-----------------------------------------------------------------------------
+----------------------------- 7 - Comments Form -------------------------------
+-----------------------------------------------------------------------------*/
+
+.comments .pagination         { width: 90%; margin: 25px auto !important;}
+ul.comment                    { width: 90%; margin: 0 auto 50px auto; }
+/* -- Comments -- */
+.comments                     { width: 90%; float: inherit; height: auto; margin: 20px auto 0 auto;}
+ul.comment li                 { float: left;}
+
+
+
+/*-----------------------------------------------------------------------------
+----------------------------- 9 - Custom Pages --------------------------------
+-----------------------------------------------------------------------------*/
+/* -- Tag & Category Index -- */
+#mcTagMap .holdleft, #sc_mcTagMap .holdleft { width: 155px !important; }
+
+/* --- 2nd Home example ( Template - Home ) -- */
+.default-post                 { width: 350px;}
+.default-post img             { width: 350px; height: 215px; float: left; margin-right: 0px; margin-bottom: 30px;}
+.entry-dp                     { width: 350px; float: left; /* 580 */ }
+
+
+/*-----------------------------------------------------------------------------
+----------------------------- 10 - Footer -------------------------------------
+-----------------------------------------------------------------------------*/
+footer .wrap                  { width: 450px; }
+
+/* -- Footer Social Icons -- */
+ul.footer-social              { float: left; }
+
+/* -- Columns -- */
+.one_third, .one_third_last       { float:left; width:100%; margin-bottom:10px; margin-right:0; }
+.one_third_last                   { margin-right:0;}
+
+.one_fourth, .one_fourth_last     { float:left; width:100%; margin-bottom:10px; margin-right:0; }
+.one_fourth_last                  { margin-right:0;}
+}
+
+
+
+
+
+
+
+
+
+/* All Mobile Size (devices) */
+@media only screen and (max-width: 479px) {
+/*-----------------------------------------------------------------------------
+----------------------------- 1 - Layout --------------------------------------
+-----------------------------------------------------------------------------*/
+header.main                { width: 100%;}
+header div.wrap            { width: 300px;}
+.wrap                      { width: 300px;}
+
+
+/*-----------------------------------------------------------------------------
+----------------------------- 2 - Header --------------------------------------
+-----------------------------------------------------------------------------*/
+/* -- Search Header (menu) -- */
+#searchform1               { display: none;}
+.sb-slidebar #searchform1  { display: block;}
+
+/* -- Top Header Menu --
+##################### */
+.jquerycssmenu             { display: none;}
+
+/* -- Right Menu -- */
+ul.right-menu              { display: none;}
+
+/*-----------------------------------------------------------------------------
+----------------------------- 3 - Sub-Header ----------------------------------
+-----------------------------------------------------------------------------*/
+/* -- Sub Header -- */
+.front-overlay-content     { width: 100%; height: 220px;}
+.front-overlay-wrap        { width: 100%; height: 220px; }
+.front-overlay-wrap h1     { font-size: 15px; font-weight: bold; line-height: 28px; word-spacing:3px; padding: 40px 10px 0 10px;}
+
+/* -- Sub Header Search -- */
+#searchform2               { width: 300px; }
+#searchform2 #s            { width: 160px;  }
+#searchform2 .buttonicon   { width: 100px; }
+
+/* -- Live Search -- */
+ul.dwls_search_results     { width: 200px !important; }
+
+/* -- Sub Header Search ( Popular Words ) -- */
+.popular-words             { display: none; }
+
+/* -- Sub Header Top social icons -- */
+ul.top-social              { display: none;}
+
+/* -- Sub Header Select -- */
+#sub-header select         { width: 245px; }
+
+/* -- Banners -- */
+.home-banner-300           { display: block;}
+.home-banner-468           { display: none;}
+.home-banner-728           { display: none;}
+.home-banner-970           { display: none;}
+
+
+/*-----------------------------------------------------------------------------
+----------------------------- 4 - Home Content --------------------------------
+-----------------------------------------------------------------------------*/
+/* -- Home Content -- */ 
+.main-content              { width: 300px; margin-left: 5px !important;} 
+
+
+
+/*-----------------------------------------------------------------------------
+----------------------------- 5 - Entry Content -------------------------------
+-----------------------------------------------------------------------------*/ 
+.content                   { width: 300px; margin-left: auto; margin-right: auto;}
+.article-author-img        { width: 30px; height: 30px; margin: -37px 0 0 -26px;}        
+.article-author-img img    { width: 30px; height: 30px;} 
+h1.article-title           { font-size: 26px; line-height: 36px; }
+.entry-top                 { padding: 30px 10px 20px 10px;}
+
+/* -- Single post types -- */
+img.attachment-thumbnail-single-image { width: 300px; } 
+.single-gallery img        { width: 150px; height: 150px;}
+iframe.single_iframe       { width: 300px; height: 200px;}
+
+/* -- Entry Banner -- */
+.entry-banner              { width: 300px; height: 250px; float: inherit; margin: 20px 0 20px -10px; }
+
+/* -- Bottom Banner -- */
+.article_list li.bottom-banner  { width: 300px !important; height: 250px; float: none; margin: 0 auto 25px auto; padding-top: 0px !important; }
+
+/* -- Entry bottom -- */
+.entry-bottom ul.article_list   { width: 100%;}
+.entry-bottom                   { width: 300px; margin: 70px auto 30px auto;}
+.entry-bottom .article_list li  { width: 82%; padding: 25px 25px 25px 25px; }
+
+/* -- Typography -- */
+.entry                     { padding: 20px 10px !important; }
+.entry img, img.aligncenter, .aligncenter img  { width: 100%; height: auto !important; }
+img.alignleft, .alignleft img   { width: 100%; height: auto !important;}
+img.alignright, .alignright img { width: 100%; height: auto !important;}
+
+/* -- About author -- */
+.author-meta               { width: 100%; height: auto; padding: 30px 0; }
+.author-meta img.avatar    { width: 30px; height: 30px; float: left; border-radius: 50% !important; }
+.author-info               { width: auto; height: auto; float: left; margin: -30px 0 -15px 50px;}
+.author-meta .entry        { padding: 0 10px !important;}
+
+/* -- Single Share -- */
+#single-share  { width:100%;  height: auto; float: none; position: fixed; bottom: 0; top: inherit; }
+#single-share a { width:20%; float: left; display: block; border-radius: 0px !important;}
+#single-share a:hover { opacity: 0.95;}
+
+/*-----------------------------------------------------------------------------
+----------------------------- 6 - Sidebar & Widgets ---------------------------
+-----------------------------------------------------------------------------*/
+
+/* -- Sidebar -- */
+.sidebar                   { width: 300px; height: auto; float: left;  margin: 30px auto !important; }
+.sidebar .widget           { margin-bottom: 40px; }
+.sidebar .widget h3.title  { text-align: center; font-size: 14px; letter-spacing:3px; text-transform: uppercase; margin-bottom: 20px; font-weight: 600; padding-bottom: 10px; }
+.sidebar .widget h3.title span { padding: 5px 10px;}
+
+/* -- Vieos -- */
+.sidebar iframe.wi-video   { width: 300px; height: 200px;}
+
+/* -- Article widget -- */
+ul.article_list          { width: 100%; height: auto; margin:-23px auto 30px auto; background: #FFF url(images/bg-header.png) repeat-x; -moz-box-shadow: 0 0px 5px #888; -webkit-box-shadow: 0 0px 5px #888; box-shadow: 0 0px 5px #888;}
+.article_list li         { width: 85%; height: auto; padding: 25px 15px 25px 25px; border-bottom: 1px solid #f0eee9; }
+.article_list li img     { width: 80px; height: 80px; float: left; margin-right: 15px; border-radius: 3px; }
+.article_list li h3      { font-size: 13px; line-height: 20px; padding-bottom: 5px; }
+.article_list li div.an-display-time   { display: block; font-size: 12px; color: #94979c; margin-top: -5px; }
+
+
+
+/*-----------------------------------------------------------------------------
+----------------------------- 7 - Comments Form -------------------------------
+-----------------------------------------------------------------------------*/
+
+.comments .pagination         { width: 90%; margin: 25px auto !important;}
+ul.comment                    { width: 90%; margin: 0 auto 50px auto; }
+/* -- Comments -- */
+.comments                     { width: 90%; float: inherit; height: auto; margin: 20px auto 0 auto;}
+ul.comment li                 { float: left;}
+
+
+/*-----------------------------------------------------------------------------
+----------------------------- 8 - Contact Form --------------------------------
+-----------------------------------------------------------------------------*/
+
+/* -- Contact Form -- */
+#contactform #contactName, #contactform #emaill, #contactform #subject { width:94%; }	
+#contactform #subject         { width: 97%;}
+#contactform textarea         { width: 97%; } 
+
+
+/*-----------------------------------------------------------------------------
+----------------------------- 9 - Custom Pages --------------------------------
+-----------------------------------------------------------------------------*/
+/* -- Tag & Category Index -- */
+#mcTagMap .holdleft, #sc_mcTagMap .holdleft { width: 120px !important; }
+
+/* --- 2nd Home example ( Template - Home ) -- */
+.default-posts                { padding: 25px;}
+.default-post                 { width: 250px; }
+.default-post img             { width: 250px; height: 153px; float: left; margin-right: 0px; margin-bottom: 20px;}
+.entry-dp                     { width: 250px; float: left; /* 580 */ }
+
+
+/*-----------------------------------------------------------------------------
+----------------------------- 10 - Footer -------------------------------------
+-----------------------------------------------------------------------------*/
+footer .wrap                  { width: 300px; }
+
+/* -- Footer Social Icons -- */
+ul.footer-social              { float: left; }
+
+/* -- Columns -- */
+.one_half, .one_half_last         { float:left;width:100%; margin-bottom:10px; margin-right:0; }
+.one_half_last                    { margin-right:0;}
+
+.one_third, .one_third_last       { float:left; width:100%; margin-bottom:10px; margin-right:0; }
+.one_third_last                   { margin-right:0;}
+
+.one_fourth, .one_fourth_last     { float:left; width:100%; margin-bottom:10px; margin-right:0; }
+.one_fourth_last                  { margin-right:0;}
+}
