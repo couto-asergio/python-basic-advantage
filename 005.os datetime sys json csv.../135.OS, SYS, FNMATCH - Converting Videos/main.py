@@ -18,8 +18,8 @@ bitrate_audio = '-b:a 320k'
 debug = '-ss 00:00:00 -to 00:00:10'
 debug = ''
 
-caminho_origem = '/home/couto/videos'
-caminho_destino = '/home/couto/videos'
+caminho_origem = '/home/couto/Videos'
+caminho_destino = '/home/couto/Videos'
 
 
 for raiz, pastas, arquivos in os.walk(caminho_origem):
